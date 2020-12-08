@@ -34,17 +34,20 @@ export const CountDown = () => {
         }
 
         timerComponents.push(
-            <p className='box-timer' key={index}>
-                {timeLeft[interval]} {interval}{" "}
-            </p>
+            <div className='box-timer' key={index}>
+                <div className='time-date'>
+                    <p className='time'>{timeLeft[interval]}</p>
+                    <p className='date'>{interval}</p>
+                </div>
+                <p className='double-dots'>:</p>
+            </div>
         );
     });
 
 
     return (
         <div className='timer'>
-            <p>Faltan</p>
-            {timerComponents.length ? timerComponents : <span>Listoo</span>}
+            {timerComponents.length ? timerComponents : <span>¡Ya puede ingresar a la conferencia!</span>}
         </div>
     );
 };
