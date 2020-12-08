@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Aspira';
+    src: local('Aspira'), url(./fonts/Aspira/Aspira\ Regular.otf) format('truetype');
+  }
+
+body {
+    margin: initial;
+    font-family: Aspira;
+}

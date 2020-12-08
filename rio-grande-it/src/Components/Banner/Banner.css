@@ -1,10 +1,55 @@
 .banner-container{
-    background-image: url('../../Images/Banner/17.png');
-    background-size: 500px 500px ;
+    background-image: url('../../Images/Banner/banner.PNG');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px 0px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 2rem;
-    height: 25rem;
+    height: 100vh;
+}
+
+@media (max-width:520px) {
+    .banner-container {
+        background-image: initial;
+    }
+}
+
+.principal-text-container {
+    max-width: 40rem;
+    min-width: 20rem;
+    margin: 1rem;
+}
+
+.principal-text {
+    max-width: 35rem;
+    min-width: 20rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.principal-title {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.cta.btn.btn-primary {
+    border-radius: 0;
+    background-color: fuchsia;
+    border: none;
+    width: 14rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: center;
+    box-shadow: -4px 4px 0px 0 midnightblue;
+}
+
+.cta.btn.btn-primary:hover {
+    box-shadow: initial;
 }
