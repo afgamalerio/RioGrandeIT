@@ -1,7 +1,7 @@
 import React from 'react';
-import './Footer.css'
+import './SpeakersAgenda.css'
 
-export const Footer = () => {
+export const SpeakersAgenda = () => {
     return (
         <div>
             
