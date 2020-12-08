@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import  './CountDown.css'
 
 export const CountDown = () => {
     const calculateTimeLeft = () => {
@@ -33,15 +34,15 @@ export const CountDown = () => {
         }
 
         timerComponents.push(
-            <span key={index}>
+            <p className='box-timer' key={index}>
                 {timeLeft[interval]} {interval}{" "}
-            </span>
+            </p>
         );
     });
 
 
     return (
-        <div>
+        <div className='timer'>
             <p>Faltan</p>
             {timerComponents.length ? timerComponents : <span>Listoo</span>}
         </div>

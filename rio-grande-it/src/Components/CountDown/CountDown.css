@@ -1,0 +1,10 @@
+.box-timer {
+    background-color: blueviolet;
+
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    
+}
