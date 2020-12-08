@@ -1,0 +1,10 @@
+.banner-container{
+    background-image: url('../../Images/Banner/17.png');
+    background-size: 500px 500px ;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    height: 25rem;
+}
