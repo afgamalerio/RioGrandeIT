@@ -36,10 +36,11 @@ export const CountDown = () => {
         timerComponents.push(
             <div className='box-timer' key={index}>
                 <div className='time-date'>
-                    <p className='time'>{timeLeft[interval]}</p>
+                    {timeLeft[interval] ?<p className='time'>{timeLeft[interval]}</p>:<p className='time'>00</p>}
                     <p className='date'>{interval}</p>
                 </div>
-                <p className='double-dots'>:</p>
+                {interval!=='Segundos'?<p className='double-dots'>:</p>:null}
+                
             </div>
         );
     });

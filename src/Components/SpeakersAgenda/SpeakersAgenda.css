@@ -1,0 +1,121 @@
+.speakers-agenda-container {
+    background-color: #191d55;
+    padding: 2rem;
+}
+
+.speakers {
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+.speakers-title {
+    background-color: #f81871;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 8rem;
+    text-align: center;
+}
+
+.speakers-card {
+    margin: 1rem 0;
+}
+
+.speakers-card-image {
+    width: 6rem;
+    height: 6rem;
+
+}
+
+.speakers-card-title {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.speakers-card-text {
+    color: #67cee6;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.agenda {
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+.agenda-title {
+    background-color: #f81871;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 8rem;
+    text-align: center;
+}
+
+.little-square-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.little-square {
+    width: 1rem;
+    height: 1rem;
+    background-color: #f81871;
+}
+
+.agenda-day {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 0.5rem;
+}
+
+.agenda-date {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0 0.1rem;
+}
+
+.agenda-events {
+    margin: 2rem 1rem;
+}
+
+.agenda-event {
+    color: #f81871;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0 0 0;
+}
+
+.agenda-event-time {
+    color: #9702ff;
+    margin: 0;
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+
+.agenda-event-speaker {
+    color: white;
+    margin: 0;
+    line-height: 1rem;
+    font-size: 0.9rem;
+}
+
+.agenda-event-name {
+    color: #67cee6;
+    margin: 0;
+    font-style: italic;
+    line-height: 1rem;
+    font-size: 0.9rem;
+}
