@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Aspira';
-    src: local('Aspira'), url(./fonts/Aspira/Aspira\ Regular.otf) format('truetype');
+    src: local('Aspira'), url(./fonts/Aspira/Aspira\ Medium.otf) format('truetype');
   }
 
 body {
     margin: initial;
-    font-family: Aspira;
+    font-family: Aspira !important;
 }

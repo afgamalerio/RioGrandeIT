@@ -1,33 +1,58 @@
 import React from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Header.css'
+import Logo from '../../Images/Header/Logo.png'
+import LogoMuni from '../../Images/Header/logo-muni.png'
+import LogoSecretaria from '../../Images/Header/logo-secretaria.png'
+import { Link } from "react-scroll";
 
 export const Header = () => {
     return (
         <header>
-            <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank
-                        </Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+            <Container>
+                <Navbar collapseOnSelect expand="lg" >
+                    <Navbar.Brand className='principal' href="/">
+                        <img
+                            src={Logo}
+                            width="60"
+                            height="80"
+                            className="d-inline-block align-top"
+                            alt="Logo" />
+                        <p className='title-brand'>Congreso de Industrias Tecnologicas</p>
+                    </Navbar.Brand>
+                    <img
+                        src={LogoSecretaria}
+                        className="logo-secretaria"
+                        alt="LogoSecretaria"
+                    />
+                    <img
+                        src={LogoMuni}
+                        className="logo-muni"
+                        alt="LogoMuni"
+                    />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Link to="home" smooth={true}>
+                                <p className='link'>Inicio</p>
+                            </Link>
+                            <Link to="home" smooth={true}>
+                                <p className='link'>Oradores</p>
+                            </Link>
+                            <Link to="home" smooth={true}>
+                                <p className='link'>Sponsors</p>
+                            </Link>
+                            <Link to="home" smooth={true}>
+                                <p className='link'>Line Up</p>
+                            </Link>
+
+                            <Link to="home" smooth={true}>
+                                <p className='link'>Registrate</p>
+                            </Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </Container>
         </header>
     );
 };

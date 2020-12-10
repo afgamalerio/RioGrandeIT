@@ -1,0 +1,50 @@
+.principal.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-brand {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #1c1e47;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.logo-secretaria {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo-muni {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    border-left: 1px solid #1c1e47;
+    display: inline-block;
+    vertical-align: top;
+}
+@media (max-width:992px) {
+    .title-brand {
+        display: none;
+    }
+    .logo-secretaria {
+        display: none;
+    }
+    .logo-muni {
+        display: none;
+    }
+}
+.link {
+    color: #8003fe !important;
+    font-weight: bold;
+    padding-right: 1.1rem !important;
+    padding-left: 1.2rem !important;
+    padding-bottom: 1.3rem;
+    font-size: 0.9rem;
+    margin-bottom: initial;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.link:hover {
+    border-bottom: 3px solid #d61e6e;
+}

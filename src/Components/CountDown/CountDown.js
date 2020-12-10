@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import  './CountDown.css'
+import './CountDown.css'
 
 export const CountDown = () => {
     const calculateTimeLeft = () => {
@@ -28,19 +28,15 @@ export const CountDown = () => {
 
     const timerComponents = [];
 
-    Object.keys(timeLeft).forEach((interval, index) => {
-        if (!timeLeft[interval]) {
-            return;
-        }
 
+    Object.keys(timeLeft).forEach((interval, index) => {
         timerComponents.push(
             <div className='box-timer' key={index}>
                 <div className='time-date'>
-                    {timeLeft[interval] ?<p className='time'>{timeLeft[interval]}</p>:<p className='time'>00</p>}
+                    <p className='time'>{timeLeft[interval] ? (timeLeft[interval] < 10 ? '0' + timeLeft[interval] : timeLeft[interval]) : '00'}</p>
                     <p className='date'>{interval}</p>
                 </div>
-                {interval!=='Segundos'?<p className='double-dots'>:</p>:null}
-                
+                {interval !== 'Segundos' ? <p className='double-dots'>:</p> : null}
             </div>
         );
     });
@@ -48,7 +44,37 @@ export const CountDown = () => {
 
     return (
         <div className='timer'>
-            {timerComponents.length ? timerComponents : <span>¡Ya puede ingresar a la conferencia!</span>}
+            {timerComponents.length ? timerComponents :
+                <>
+                    <div className='box-timer'>
+                        <div className='time-date'>
+                            <p className='time'>0</p>
+                            <p className='date'>Dias</p>
+                        </div>
+                        <p className='double-dots'>:</p>
+                    </div>
+                    <div className='box-timer'>
+                        <div className='time-date'>
+                            <p className='time'>00</p>
+                            <p className='date'>Horas</p>
+                        </div>
+                        <p className='double-dots'>:</p>
+                    </div>
+                    <div className='box-timer'>
+                        <div className='time-date'>
+                            <p className='time'>00</p>
+                            <p className='date'>Minutos</p>
+                        </div>
+                        <p className='double-dots'>:</p>
+                    </div>
+                    <div className='box-timer'>
+                        <div className='time-date'>
+                            <p className='time'>00</p>
+                            <p className='date'>Segundos</p>
+                        </div>
+                    </div>
+                </>
+            }
         </div>
     );
 };
