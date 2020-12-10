@@ -33,20 +33,20 @@ export const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Link to="home" smooth={true}>
+                            <Link to="inicio" smooth={true}>
                                 <p className='link'>Inicio</p>
                             </Link>
-                            <Link to="home" smooth={true}>
+                            <Link to="oradores" smooth={true}>
                                 <p className='link'>Oradores</p>
                             </Link>
-                            <Link to="home" smooth={true}>
+                            <Link to="sponsors" smooth={true}>
                                 <p className='link'>Sponsors</p>
                             </Link>
-                            <Link to="home" smooth={true}>
-                                <p className='link'>Line Up</p>
+                            <Link to="lineUp" smooth={true}>
+                                <p className='link'>Agenda</p>
                             </Link>
 
-                            <Link to="home" smooth={true}>
+                            <Link to="registrate" smooth={true}>
                                 <p className='link'>Registrate</p>
                             </Link>
                         </Nav>

@@ -1,26 +1,26 @@
-.banner-container{
-    background-image: url('../../Images/Banner/banner.PNG');
+.banner-container {
+    background-image: url("../../Images/Banner/banner.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-
-@media (max-width:1420px) {
+@media (max-width: 1420px) {
     .banner-container {
         background-position: -100px 0px;
     }
 }
-@media (max-width:1170px) {
+@media (max-width: 1170px) {
     .banner-container {
         background-image: initial;
     }
 }
-.box-title{
+.box-title {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .principal-text-container {
@@ -38,11 +38,11 @@
     line-height: 1.5rem;
     padding: 1rem 0 1rem 0;
 }
-@media (max-width:520px) {
+@media (max-width: 520px) {
     .principal-text-container {
         min-width: 10rem;
     }
-    
+
     .principal-text {
         min-width: 10rem;
     }
@@ -52,7 +52,6 @@
     font-size: 2.7rem;
     font-weight: bold;
 }
-
 
 .cta.btn.btn-primary {
     border-radius: 0;

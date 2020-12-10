@@ -5,33 +5,35 @@ import SponsorPhoto from '../../Images/Sponsors/sponsor-foto.jpg'
 
 export const Sponsors = () => {
     return (
-        <Container bsPrefix='sponsors-background'>
-            <Container>
-                <h1 className='sponsors-title'>Sponsors</h1>
-                <Row>
-                    <Col lg={6}>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                        <a href='https://www.cultura.gob.ar/'>
-                            <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image'/>
-                        </a>
-                    </Col>
-                </Row>
-                
+        <section id="sponsors">
+            <Container bsPrefix='sponsors-background'>
+                <Container>
+                    <h1 className='sponsors-title'>Sponsors</h1>
+                    <Row>
+                        <Col lg={6}>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                            <a href='https://www.cultura.gob.ar/'>
+                                <img src={SponsorPhoto} alt='Foto sponsor' className='sponsor-card-image' />
+                            </a>
+                        </Col>
+                    </Row>
+
+                </Container>
             </Container>
-        </Container>
+        </section>
     );
 };
