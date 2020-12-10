@@ -4,7 +4,7 @@
     background-image: url("../../Images/Speakers-Agenda/BG-oradores-agenda.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 210vh;
+    min-height: 30rem;
     padding: 2rem;
 }
 
