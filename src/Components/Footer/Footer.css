@@ -1,0 +1,12 @@
+.box-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sponsor-image {
+    filter: grayscale(100%);
+    margin: 1.3rem;
+    width: 8rem;
+    height: 8rem;
+}

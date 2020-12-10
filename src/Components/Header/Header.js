@@ -42,7 +42,7 @@ export const Header = () => {
                             <Link to="sponsors" smooth={true}>
                                 <p className='link'>Sponsors</p>
                             </Link>
-                            <Link to="lineUp" smooth={true}>
+                            <Link to="agenda" smooth={true}>
                                 <p className='link'>Agenda</p>
                             </Link>
 

@@ -15,42 +15,42 @@ export const SpeakersAgenda = () => {
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
@@ -61,42 +61,42 @@ export const SpeakersAgenda = () => {
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
                                 <Col lg={2}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <h6 className='speakers-card-title'>Ignacio Puccini</h6>
+                                        <p className='speakers-card-title'>Ignacio Puccini</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
@@ -105,7 +105,7 @@ export const SpeakersAgenda = () => {
                     </Row>
                 </Container>
             </section>
-            <section id="lineUp">
+            <section id="agenda">
                 <Container className='agenda'>
                     <h2 className='agenda-title'>Agenda</h2>
                     <Row>

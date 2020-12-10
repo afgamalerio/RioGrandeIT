@@ -70,3 +70,10 @@
 .cta.btn.btn-primary:hover {
     box-shadow: initial;
 }
+
+.cta.btn.btn-primary:active {
+    background-color: #d61e6e !important;
+    border-color: initial !important;
+    border: initial !important;
+}
+    
