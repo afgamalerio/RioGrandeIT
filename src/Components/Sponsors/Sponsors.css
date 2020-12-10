@@ -1,0 +1,27 @@
+.sponsors-background {
+    background-color: white;
+    padding: 2rem;
+}
+
+.sponsors {
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+.sponsors-title {
+    background-color: #d61e6e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 8rem;
+    text-align: center;
+}
+
+.sponsor-card-image {
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem 2rem 2rem 0;
+}

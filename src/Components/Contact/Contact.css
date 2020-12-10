@@ -1,0 +1,11 @@
+.contact-background {
+    background-image: url('../../Images/Contact/contact-foto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+}
