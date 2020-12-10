@@ -16,8 +16,12 @@ export const Contact = () => {
                                 <p className='information-text'>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                                 <Button className='cta'>Inscribirse</Button>
                                 <br></br>
-                                <img src={FacebookIcon} alt='Logo Facebook' className='icon' />
-                                <img src={InstagramIcon} alt='Logo Instagram' className='icon' />
+                                <a href='https://www.facebook.com/EspacioTecnologicoRGA'>
+                                    <img src={FacebookIcon} alt='Logo Facebook' className='icon' />
+                                </a>
+                                <a href='https://www.instagram.com/espaciotecnologicorga/'>
+                                    <img src={InstagramIcon} alt='Logo Instagram' className='icon' />
+                                </a>
                             </Col>
                         </Row>
                     </Container>
