@@ -10,7 +10,7 @@
 }
 
 .double-dots {
-    color: #9702ff;
+    color: #8003fe;
     font-size: 3rem;
     font-weight: bold;
     margin: 0rem 0.5rem;
@@ -22,7 +22,7 @@
 }
 
 .date {
-    color: #9702ff;
+    color: #8003fe;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -30,7 +30,7 @@
 }
 
 .time {
-    background-color: #9702ff;
+    background-color: #8003fe;
     padding: unset;
     color: white;
     font-weight: bold;

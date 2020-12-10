@@ -20,7 +20,7 @@
     max-width: 40rem;
     min-width: 20rem;
     margin: 1rem;
-    color: #14164d;
+    color: #1c1e47;
 }
 
 .principal-text {
@@ -39,7 +39,7 @@
 
 .cta.btn.btn-primary {
     border-radius: 0;
-    background-color: #f81871;
+    background-color: #d61e6e;
     border: none;
     width: 14rem;
     height: 3.5rem;
@@ -48,7 +48,7 @@
     text-transform: uppercase;
     align-content: center;
     justify-content: center;
-    box-shadow: -4px 4px 0px 0 midnightblue;
+    box-shadow: -4px 4px 0px 0 #424b92;
 }
 
 .cta.btn.btn-primary:hover {
