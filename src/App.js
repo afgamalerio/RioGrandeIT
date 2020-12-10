@@ -7,6 +7,9 @@ import { Sponsors } from './Components/Sponsors'
 import { Contact } from './Components/Contact'
 import { Footer } from './Components/Footer'
 import { Mark } from './Components/Mark';
+import { Link } from 'react-scroll';
+import { Button } from 'react-bootstrap';
+import HomeButton from './Images/Home-Button/home-button.png'
 
 function App() {
   return (
@@ -20,6 +23,11 @@ function App() {
       </main>
       <Footer />
       <Mark />
+      <Link to='home' smooth={true}>
+        <Button className='home-button'>
+          <img src={HomeButton} alt='Ir Arriba'/>
+        </Button>
+      </Link>
     </div>
   );
 }

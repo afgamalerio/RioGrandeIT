@@ -1,11 +1,16 @@
 .speakers-agenda-container {
     background-color: #1c1e47;
     padding: 2rem;
+    background-image: url("../../Images/Speakers-Agenda/BG-oradores-agenda.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210vh;
+    padding: 2rem;
 }
 
 .speakers {
-    margin-bottom: 8rem;
-    margin-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .speakers-title {
@@ -44,8 +49,8 @@
 }
 
 .agenda {
-    margin-bottom: 8rem;
-    margin-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .agenda-title {
