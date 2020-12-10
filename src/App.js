@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { SpeakersAgenda } from './Components/SpeakersAgenda/SpeakersAgenda';
 import { Sponsors } from './Components/Sponsors/Sponsors'
 import { Contact } from './Components/Contact/Contact'
+import { Footer } from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SpeakersAgenda />
       <Sponsors />
       <Contact />
+      <Footer />
     </div>
   );
 }
