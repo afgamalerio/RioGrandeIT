@@ -12,3 +12,11 @@
     object-fit: contain;
     justify-content: center;
 }
+
+@media (max-width: 520px) {
+    .sponsor-image {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 0.2rem;
+}
+}
