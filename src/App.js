@@ -14,7 +14,6 @@ function App() {
       <SpeakersAgenda />
       <Sponsors />
       <Contact />
-      <Footer />
     </div>
   );
 }
