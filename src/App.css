@@ -7,3 +7,25 @@ body {
     margin: initial;
     font-family: Aspira !important;
 }
+
+.home-button.btn.btn-primary {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 2rem;
+  border-radius: 50%;
+  background-color: #d61e6e;
+  box-shadow: initial;
+  border-color: initial;
+  z-index: 0;
+}
+
+.home-button.btn.btn-primary:hover {
+  background-color: #b41c5e;
+}
+
+.home-button.btn.btn-primary:active {
+  background-color: #d61e6e !important;
+  border-color: white !important;
+  box-shadow: initial;
+}

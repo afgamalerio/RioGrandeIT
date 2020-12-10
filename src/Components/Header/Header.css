@@ -14,15 +14,12 @@
 .logo-secretaria {
     display: inline-block;
     vertical-align: top;
+    width: 11.7rem;
+    height: 2.9rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
 }
-.logo-muni {
-    margin-left: 1rem;
-    margin-right: 2rem;
-    padding-left: 1rem;
-    border-left: 1px solid #1c1e47;
-    display: inline-block;
-    vertical-align: top;
-}
+
 @media (max-width:992px) {
     .title-brand {
         display: none;
