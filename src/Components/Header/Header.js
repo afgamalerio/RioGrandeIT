@@ -28,7 +28,7 @@ export const Header = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Link to="inicio" smooth={true}>
+                                <Link to="home" smooth={true}>
                                     <p className='link'>Inicio</p>
                                 </Link>
                                 <Link to="oradores" smooth={true}>
