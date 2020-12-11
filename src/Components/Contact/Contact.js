@@ -13,8 +13,8 @@ export const Contact = () => {
                     <Container className='contact-information-text'>
                         <Row>
                             <Col lg={8}>
-                                <p className='information-text'>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-                                <Button className='cta'>Inscribirse</Button>
+                                <p className='information-text'>¿Estás preparadx para formar parte de la industria tecnológica?</p>
+                                <Button className='cta' onClick={()=>window.open('http://bit.ly/RioGrandeIT')}>Inscribirse</Button>
                                 <br></br>
                                 <a href='https://www.facebook.com/EspacioTecnologicoRGA'>
                                     <img src={FacebookIcon} alt='Logo Facebook' className='icon' />

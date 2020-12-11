@@ -31,12 +31,12 @@ export const Header = () => {
                                 <Link to="home" smooth={true}>
                                     <p className='link'>Inicio</p>
                                 </Link>
-                                <Link to="oradores" smooth={true}>
+                                {/*<Link to="oradores" smooth={true}>
                                     <p className='link'>Oradores</p>
                                 </Link>
                                 <Link to="agenda" smooth={true}>
                                     <p className='link'>Agenda</p>
-                                </Link>
+                                </Link>*/}
                                 <Link to="sponsors" smooth={true}>
                                     <p className='link'>Sponsors</p>
                                 </Link>
