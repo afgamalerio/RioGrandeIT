@@ -1,5 +1,6 @@
 {
   "name": "rio-grande-it",
+  "homepage": "http://www.riograndeit.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
