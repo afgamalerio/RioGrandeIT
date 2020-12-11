@@ -22,7 +22,7 @@ export const SpeakersAgenda = () => {
                                 <Col lg={2} xs={6}>
                                     <div className='speakers-card'>
                                         <img src={SpeakerPhoto} alt='Foto orador' className='speakers-card-image' />
-                                        <p className='speakers-card-title'>Ignacio Puccini</p>
+                                        <p className='speakers-card-title'>Ignacio Puccini Fernandez</p>
                                         <p className='speakers-card-text'>Desarrollador de videojuegos/Francia</p>
                                     </div>
                                 </Col>
