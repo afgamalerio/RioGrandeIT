@@ -2,18 +2,16 @@
     background-image: url("../../Images/Banner/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-origin: border-box;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 2rem;
-    position: relative;
-    z-index: 100;
 }
 
 @media (max-width: 1420px) {
     .banner-container {
-        background-position: 0px -120px;
+        background-position: 0px 0px;
     }
 }
 @media (max-width: 1170px) {
@@ -53,7 +51,7 @@
 
 .principal-title {
     font-size: 2.7rem;
-    font-weight: bold;
+    font-weight: 1000;
 }
 
 .cta.btn.btn-primary {

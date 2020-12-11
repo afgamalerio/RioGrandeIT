@@ -40,12 +40,13 @@
     font-size: 1rem;
     font-weight: 600;
     margin-top: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .speakers-card-text {
     color: #5fd4b2;
     font-size: 0.7rem;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
 }
 
 .agenda {

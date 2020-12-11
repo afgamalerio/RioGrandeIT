@@ -9,8 +9,8 @@ export const Header = () => {
     return (
         <header>
             <section id="home">
-                <Container>
-                    <Navbar collapseOnSelect expand="lg" >
+                <Navbar collapseOnSelect expand="lg" className='nav-bar'>
+                    <Container>
                         <Navbar.Brand className='principal' href="/">
                             <img
                                 src={Logo}
@@ -45,8 +45,8 @@ export const Header = () => {
                                 </Link>
                             </Nav>
                         </Navbar.Collapse>
-                    </Navbar>
-                </Container>
+                    </Container>
+                </Navbar>
             </section>
         </header>
     );

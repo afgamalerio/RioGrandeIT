@@ -1,3 +1,15 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    z-index: 1030;
+    width: 100%;
+    background-color: white;
+    opacity: 97%;
+    padding: initial;
+}
+
 .principal.navbar-brand {
     display: flex;
     flex-direction: row;
