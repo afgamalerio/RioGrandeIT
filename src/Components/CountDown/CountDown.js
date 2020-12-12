@@ -4,7 +4,7 @@ import './CountDown.css'
 export const CountDown = (props) => {
     const {setTimer} = props
     const calculateTimeLeft = () => {
-        const difference = +new Date('2020-12-12') - +new Date();
+        const difference = +new Date('2020-12-18') - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {
