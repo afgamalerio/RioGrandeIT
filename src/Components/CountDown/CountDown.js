@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './CountDown.css'
 
-export const CountDown = () => {
+export const CountDown = (props) => {
+    const {setTimer} = props
     const calculateTimeLeft = () => {
         const difference = +new Date('2020-12-18') - +new Date();
         let timeLeft = {};
@@ -28,7 +29,6 @@ export const CountDown = () => {
 
     const timerComponents = [];
 
-
     Object.keys(timeLeft).forEach((interval, index) => {
         timerComponents.push(
             <div className='box-timer' key={index}>
@@ -39,6 +39,7 @@ export const CountDown = () => {
                 {interval !== 'Segundos' ? <p className='double-dots'>:</p> : null}
             </div>
         );
+        setTimer(timeLeft)
     });
 
 

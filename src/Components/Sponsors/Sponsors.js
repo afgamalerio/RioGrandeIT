@@ -66,6 +66,7 @@ export const Sponsors = () => {
                             <img src={MinCul} alt='Icono Ministerio de Cultura Sponsor' className='sponsor-card-image' />
                         </a>
                     </div>
+                    <br/><br/>
                 </Container>
             </Container>
         </section>

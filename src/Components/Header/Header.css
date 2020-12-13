@@ -43,6 +43,15 @@
         display: none;
     }
 }
+
+@media (max-width: 520px) {
+    .navbar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+    }
+}
+
 .link {
     color: #8003fe !important;
     font-weight: bold;
@@ -54,6 +63,7 @@
     margin-top: 2rem;
     cursor: pointer;
 }
+
 .link:hover {
     border-bottom: 3px solid #d61e6e;
 }
