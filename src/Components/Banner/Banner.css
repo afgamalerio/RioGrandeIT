@@ -9,6 +9,13 @@
     justify-content: right;
 }
 
+@media (max-width: 520px) {
+    .banner-container {
+        padding: 2rem;
+        height: 100vh;
+    }
+}
+
 @media (min-width: 1640px) {
     .banner-container {
         background-image: url("../../Images/Banner/banner-2.png");

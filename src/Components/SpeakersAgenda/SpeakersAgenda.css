@@ -60,9 +60,9 @@
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.6rem;
     margin: 1rem 0;
-    width: 8rem;
+    width: 9.5rem;
     text-align: center;
 }
 
@@ -93,11 +93,11 @@
     margin: 0 0.1rem;
 }
 
-.agenda-events {
+.agenda-event-box {
     margin: 2rem 1rem;
 }
 
-.agenda-event {
+.agenda-event-title {
     color: #d61e6e;
     text-transform: uppercase;
     font-weight: bold;
@@ -108,20 +108,20 @@
     color: #8003fe;
     margin: 0;
     line-height: 1.2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .agenda-event-speaker {
     color: white;
     margin: 0;
-    line-height: 1rem;
-    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .agenda-event-name {
     color: #5fd4b2;
-    margin: 0;
+    margin-bottom: 1rem;
     font-style: italic;
-    line-height: 1rem;
-    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
 }
