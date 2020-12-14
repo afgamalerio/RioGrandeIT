@@ -4,7 +4,7 @@ _Landing page para el Congreso de Industrias Tecnológicas del municipio de Rio 
 
 ## Autores ✒️
 
-* **Anahi Fernandez Gamalerio** - *Trabajo Inicial* - [afgamalerio](https://github.com/afgamalerio)
+* **Anahi Fernandez Gamalerio** - *Front-End developer* - [afgamalerio](https://github.com/afgamalerio)
 * **Esteban Gueicha** - *Lider técnico* - [estebanGueicha](#estebanGueicha)
 
 ---
