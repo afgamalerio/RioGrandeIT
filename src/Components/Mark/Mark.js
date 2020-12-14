@@ -5,7 +5,7 @@ import './Mark.css'
 export const Mark = () => {
     return (
         <Container>
-            <p className='mark'>Made with love by: Codesur</p>
+            <p className='mark'>Made with love by: <a className='mark-link' href='https://www.codesur.ar/'>Codesur</a></p>
         </Container>
     );
 };

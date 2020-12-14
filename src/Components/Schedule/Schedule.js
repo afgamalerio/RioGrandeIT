@@ -22,7 +22,7 @@ export const Schedule = () => {
                                 <p className='schedule-event-time'>16:00 -
                                     <span className='schedule-event-speaker'>Bruno Martinez</span>
                                 </p>
-                                <p className='schedule-event-name'>"Bienvenidxs al día 1"</p>
+                                <p className='schedule-event-name'>"¡Bienvenidxs al día 1!"</p>
                                 <p className='schedule-event-time'>16:30 -
                                     <span className='schedule-event-speaker'>Martín Perez</span>
                                 </p>
@@ -70,7 +70,7 @@ export const Schedule = () => {
                                 <p className='schedule-event-time'>10:00 -
                                     <span className='schedule-event-speaker'>Bruno Martinez</span>
                                 </p>
-                                <p className='schedule-event-name'>"Bienvenidxs al día 2"</p>
+                                <p className='schedule-event-name'>"¡Bienvenidxs al día 2!"</p>
                             </div>
                             <div className='schedule-event-box'>
                                 <p className='schedule-event-title'>Charlas</p>
