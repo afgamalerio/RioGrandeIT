@@ -1,60 +1,18 @@
-.speakers-agenda-container {
+.speakers-schedule-container {
     background-color: #1c1e47;
-    padding: 2rem;
-    background-image: url("../../Images/Speakers-Agenda/BG-oradores-agenda.png");
+    background-image: url("../../Images/Schedule/BG-oradores-agenda.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 30rem;
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 
-.speakers {
+.schedule {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-.speakers-title {
-    background-color: #d61e6e;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.5rem;
-    margin: 1rem 0;
-    width: 8rem;
-    text-align: center;
-}
-
-.speakers-card {
-    margin: 1rem 0;
-}
-
-.speakers-card-image {
-    width: 6rem;
-    height: 6rem;
-
-}
-
-.speakers-card-title {
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 0.4rem;
-}
-
-.speakers-card-text {
-    color: #5fd4b2;
-    font-size: 0.7rem;
-    margin-top: 0.4rem;
-}
-
-.agenda {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.agenda-title {
+.schedule-title {
     background-color: #d61e6e;
     color: white;
     text-transform: uppercase;
@@ -66,11 +24,16 @@
     text-align: center;
 }
 
+.schedule-subtitle {
+    border-bottom: solid 2px #d61e6e;
+}
+
 .little-square-title-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: -2px;
 }
 
 .little-square {
@@ -79,7 +42,7 @@
     background-color: #d61e6e;
 }
 
-.agenda-day {
+.schedule-day {
     color: white;
     font-weight: bold;
     font-size: 1rem;
@@ -87,38 +50,38 @@
     margin: 0 0.5rem;
 }
 
-.agenda-date {
+.schedule-date {
     color: white;
     font-size: 0.9rem;
     margin: 0 0.1rem;
 }
 
-.agenda-event-box {
+.schedule-event-box {
     margin: 2rem 1rem;
 }
 
-.agenda-event-title {
+.schedule-event-title {
     color: #d61e6e;
     text-transform: uppercase;
     font-weight: bold;
     margin: 1rem 0 0 0;
 }
 
-.agenda-event-time {
+.schedule-event-time {
     color: #8003fe;
     margin: 0;
     line-height: 1.2rem;
     font-size: 0.9rem;
 }
 
-.agenda-event-speaker {
+.schedule-event-speaker {
     color: white;
     margin: 0;
     line-height: 1.2rem;
     font-size: 0.8rem;
 }
 
-.agenda-event-name {
+.schedule-event-name {
     color: #5fd4b2;
     margin-bottom: 1rem;
     font-style: italic;

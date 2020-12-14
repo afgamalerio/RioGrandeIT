@@ -1,1 +1,0 @@
-export { SpeakersAgenda } from './SpeakersAgenda'
