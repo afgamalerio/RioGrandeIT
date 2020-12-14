@@ -15,6 +15,7 @@ import Fundav from '../../Images/Sponsors/11-fundav.png'
 import ServiceDesign from '../../Images/Sponsors/12-service-design-club.png'
 import RIGGD from '../../Images/Sponsors/13-riggd.png'
 import MinCul from '../../Images/Sponsors/14-ministerio-de-cultura.png'
+import MinDes from '../../Images/Sponsors/15-min-desarrollo-productivo.png'
 
 export const Sponsors = () => {
     return (
@@ -64,6 +65,9 @@ export const Sponsors = () => {
                         </a>
                         <a href='https://www.cultura.gob.ar/'>
                             <img src={MinCul} alt='Icono Ministerio de Cultura Sponsor' className='sponsor-card-image' />
+                        </a>
+                        <a href='https://www.argentina.gob.ar/produccion'>
+                            <img src={MinDes} alt='Icono Ministerio de Desarrollo Sponsor' className='sponsor-card-image' />
                         </a>
                     </div>
                     <br/><br/>

@@ -54,3 +54,10 @@
         align-items: top;
     }
 }
+
+@media (max-width: 520px) {
+    .sponsors-background {
+        height: 110vh;
+        align-items: top;
+    }
+}
