@@ -65,20 +65,32 @@
     text-transform: uppercase;
     font-weight: bold;
     margin: 1rem 0 0 0;
-}
-
-.schedule-event-time {
-    color: #8003fe;
-    margin: 0;
     line-height: 1.2rem;
     font-size: 0.9rem;
 }
 
-.schedule-event-speaker {
-    color: white;
+.schedule-event-lunch {
+    color: #d61e6e;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+}
+
+.schedule-event-time {
+    color: #d61e6e;
     margin: 0;
     line-height: 1.2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.schedule-event-speaker {
+    color: white;
+    margin: 0 0 0 0.2rem;
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .schedule-event-name {
@@ -86,5 +98,5 @@
     margin-bottom: 1rem;
     font-style: italic;
     line-height: 1.2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
