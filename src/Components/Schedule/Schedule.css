@@ -1,4 +1,4 @@
-.speakers-schedule-container {
+.schedule-container {
     background-color: #1c1e47;
     background-image: url("../../Images/Schedule/BG-oradores-agenda.png");
     background-size: cover;
@@ -8,8 +8,8 @@
 }
 
 .schedule {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .schedule-title {
@@ -70,7 +70,7 @@
 }
 
 .schedule-event-lunch {
-    color: #d61e6e;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1.2rem;
@@ -83,6 +83,7 @@
     line-height: 1.2rem;
     font-size: 0.9rem;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .schedule-event-speaker {
@@ -91,6 +92,7 @@
     line-height: 1.2rem;
     font-size: 0.9rem;
     font-weight: 500;
+    text-transform: initial;
 }
 
 .schedule-event-name {
