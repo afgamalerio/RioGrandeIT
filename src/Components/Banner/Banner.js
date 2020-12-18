@@ -17,8 +17,8 @@ export const Banner = () => {
                             <Col lg={11}>
                                 <div className='principal-text-container'>
                                     <h1 className='principal-title'>Congreso de <br /> Industrias Tecnológicas</h1>
-                                    <p className='principal-text'>Conocé la industria tecnológica en Rio Grande e involucrate en este movimiento imparable que es el IT. Participá de 3 días de charlas, paneles y talleres.</p>
-                                    <CountDown setIsFinish={setIsFinish} />
+                                    <p className='principal-text'>Conocé la industria tecnológica en Rio Grande e involucrate en este movimiento imparable que es el IT. Participá de 2 días de charlas, paneles y talleres.</p>
+                                    <CountDown setTimer={handleTimer} />
                                     <Button className='cta' onClick={() => window.open('http://bit.ly/RioGrandeIT')}>Inscribirse</Button>
                                 </div>
                             </Col>
