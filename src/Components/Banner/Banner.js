@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player'
 
 export const Banner = () => {
     const [isFinish, setIsFinish] = useState(false)
-    const YoutubeUrl = 'https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=ChilledCow'
+    const YoutubeUrl = 'https://www.youtube.com/watch?v=h3pkeICnRlY&feature=youtu.be&ab_channel=EspacioTecnol%C3%B3gicoRGA'
 
     return (
         <section id="inicio">
