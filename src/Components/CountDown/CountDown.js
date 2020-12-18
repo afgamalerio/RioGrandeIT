@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './CountDown.css'
 
 export const CountDown = (props) => {
-    const {setTimer} = props
+    const { setIsFinish } = props
     const calculateTimeLeft = () => {
         const difference = +new Date('2020-12-18 16:00:00') - +new Date();
         let timeLeft = {};
@@ -15,16 +15,19 @@ export const CountDown = (props) => {
                 Segundos: Math.floor((difference / 1000) % 60),
             };
         }
-
         return timeLeft;
     };
-
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
     useEffect(() => {
-        setTimeout(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
+        if(Object.keys(calculateTimeLeft()).length){
+            setTimeout(() => {
+                setTimeLeft(calculateTimeLeft());
+            }, 1000);
+        }else{
+            setIsFinish(true)
+        }
+       
     });
 
     const timerComponents = [];
@@ -39,7 +42,6 @@ export const CountDown = (props) => {
                 {interval !== 'Segundos' ? <p className='double-dots'>:</p> : null}
             </div>
         );
-        setTimer(timeLeft)
     });
 
 

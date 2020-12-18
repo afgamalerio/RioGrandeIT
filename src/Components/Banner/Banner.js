@@ -5,20 +5,16 @@ import { CountDown } from '../CountDown'
 import ReactPlayer from 'react-player'
 
 export const Banner = () => {
-    const [timer, setTimer] = useState([])
-    const YoutubeUrl = 'https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=ChilledCow'
-    const handleTimer = (t) => {
-        setTimer(t)
-    }
-    console.log(timer)
+    const [isFinish, setIsFinish] = useState(false)
+    const YoutubeUrl = 'https://www.youtube.com/watch?v=h3pkeICnRlY&feature=youtu.be&ab_channel=EspacioTecnol%C3%B3gicoRGA'
+
     return (
         <section id="inicio">
             <Container bsPrefix='banner-container'>
-                {Object.keys(timer).length ? (
+                {!isFinish ? (
                     <Container className='box-title'>
                         <Row>
                             <Col lg={11}>
-
                                 <div className='principal-text-container'>
                                     <h1 className='principal-title'>Congreso de <br /> Industrias Tecnológicas</h1>
                                     <p className='principal-text'>Conocé la industria tecnológica en Rio Grande e involucrate en este movimiento imparable que es el IT. Participá de 2 días de charlas, paneles y talleres.</p>
@@ -28,15 +24,14 @@ export const Banner = () => {
                             </Col>
                         </Row>
                     </Container>
-                ) :
-                    <Container className='video-container'>
-                        <ReactPlayer
-                            controls
-                            url={YoutubeUrl}
-                        />
-                    </Container>
-
-                }
+                ) : (
+                        <Container className='video-container'>
+                            <ReactPlayer
+                                controls
+                                url={YoutubeUrl}
+                            />
+                        </Container>
+                    )}
             </Container>
         </section>
     );
