@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json*
 .eslintcache
+server.key*
+server.pass.key*
