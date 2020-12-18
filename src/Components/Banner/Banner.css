@@ -28,6 +28,10 @@
         background-image: initial;
     }
 }
+.video-container{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .box-title {
     display: flex;
