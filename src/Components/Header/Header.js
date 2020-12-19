@@ -38,7 +38,7 @@ export const Header = () => {
                                     <p className='link'>Sponsors</p>
                                 </Link>
                                 <Link to="registrate" smooth={true}>
-                                    <p className='link'>Registrate</p>
+                                    <p className='link'>Base IT</p>
                                 </Link>
                             </Nav>
                         </Navbar.Collapse>
