@@ -64,6 +64,8 @@
     cursor: pointer;
 }
 
+
 .link:hover {
     border-bottom: 3px solid #d61e6e;
 }
+
